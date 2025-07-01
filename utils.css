@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+    /* padding-right: 20px; */
+}
+
+
+
+.item-center{
+    padding-right: 0px;
+   align-items: center;
+}
+
+.justify-center{
+ justify-content: center;
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.semibold{
+    font-weight:bolder ;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.mx2{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 14px;
+}
+
+.profile:hover,
+.Wishlist:hover,
+.Bag:hover {
+    color: #0b17f5; 
+}
+
+footer{
+    margin: 12px 0 ;
+    text-align: center;
+}

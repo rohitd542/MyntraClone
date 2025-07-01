@@ -1,0 +1,312 @@
+html,
+body {
+    height: 150%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 5px 15px;
+    position: sticky;
+    top: 0;
+}
+
+.left img {
+    width: 35px;
+    height: 29px;
+    padding-left: 5px;
+}
+
+
+.container {
+    /* margin: 13px 0px; */
+    padding: 0 10vw;
+    height: 67px;
+    /* display: flex; */
+    /* margin: auto; */
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 9px;
+
+}
+
+
+/* .search-bar{
+    position: relative;
+    max-width: 100%;
+    padding: 19px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 100px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f6; 
+    box-sizing: border-box; 
+} */
+
+.right {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Styles for the search input box */
+input.search-bar {
+
+    height: 36px;
+    width: 400px;
+    padding: 0 15px;
+
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f6;
+    outline: none;
+}
+
+input.search-bar::placeholder {
+    color: #888;
+}
+
+
+
+/* .section1{
+
+    background-color: rgb(242, 255, 255);
+} */
+
+.logo{
+    width: 100%;
+    height: 600%;
+    padding-top: 12px;
+}
+
+.logo1{
+    width: 128%;
+    height: 143%;
+    user-select: auto;
+    margin-left: -140px;
+}
+
+
+
+.container2 {
+    width: 100%; /* Ensure the container takes full width */
+    max-width: 100%;  /*Important for responsiveness */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.full-width-image {
+    margin-left: -13%;
+    width: 124%; /* Make the image take 100% of its parent's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+} 
+
+.parts{
+    height: 12px;
+    width: 12px;
+}
+.part{
+    height: 120px;
+    width: 120px;
+}
+
+.itemImg{
+    height: 25vw;
+    max-width: 100%;
+
+    margin: 6px 9px;
+}
+
+.sandals-container {
+    display: flex; /* Makes the container a flex container */
+    justify-content: flex-start; /* <<< KEY CHANGE: Aligns items to the start (left) */
+    align-items: flex-start; /* Aligns items to the start of the cross axis (top) */
+    flex-wrap: nowrap; /* <<< KEY CHANGE: Prevents items from wrapping to the next line */
+    gap: 15px; /* Adjust gap between items as needed, making it smaller */
+    padding: 0 20px; /* Add padding to the left and right, but no top/bottom */
+    overflow-x: auto; /* Allows horizontal scrolling if items exceed screen width */
+    width: 128%; /* Ensure the container takes full width */
+    box-sizing: border-box; /* Include padding in width */
+    margin-left: -14%;
+  }
+
+  .sandal-item {
+    flex: 0 0 auto; /* <<< KEY CHANGE: Prevents items from growing or shrinking automatically */
+    width: 200px; /* <<< KEY CHANGE: Set a fixed width for each item (adjust as needed) */
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Add shadow for visual separation if desired */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Slightly rounded corners */
+  }
+
+  .sandal-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+
+/* .tall{
+    height: 100vh;
+} */
+
+
+ .footer-container {
+    display: flex; 
+    /* justify-content: space-around; Distribute sections with space around them */
+    flex-wrap: wrap; /* Allow sections to wrap to the next line on smaller screens */
+    max-width: 1200px; /* Max width to keep content organized */
+     margin: 0 auto; /* Center the footer content */
+    padding: 0 20px; /* Horizontal padding  */
+  } 
+
+  .footer-section {
+    flex: 1; /* Allow sections to grow and shrink */
+    min-width: 180px; /* Minimum width for each column */
+    margin: 0 15px 20px 15px; /* Margin for spacing between columns and rows */
+  } 
+/* float: left; */
+
+  .footer-section h4 {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    color: #10121c; /* Darker heading color */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+  }
+
+  .footer-section ul {
+    list-style: none; /* Remove bullet points from lists */
+    padding: 0;
+    margin: 0;
+  }
+   .footer-section ul li {
+    text-align: left;
+    margin-bottom: 8px; /* Spacing between list items 
+  } 
+
+  .footer-section ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #696b79; /* Link color */
+    font-size: 16px;
+    /* transition: color 0.3s ease; Smooth color transition on hover */
+  }
+
+  /* .ul-col{
+    columns: 2;
+  } */
+
+
+  .app-buttons {
+    display: flex;
+    gap: 10px; /* Space between app store buttons */
+    margin-bottom: 20px;
+  }
+
+  .app-buttons img {
+    height: 40px; /* Adjust size of app store badges */
+  }
+
+
+  .guarantee-section {
+    flex: 0 0 250px; /* Give this section a fixed width, or adjust flex-basis */
+    min-width: 250px; /* Ensure it doesn't shrink too much */
+  }
+  
+  .guarantee-item {
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+    margin-bottom: 20px;
+  }
+  
+  .guarantee-item img {
+    height: 40px; /* Size of the guarantee icons */
+    margin-right: 15px;
+  }
+  
+  .guarantee-item p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #696b79;
+  }
+  
+  .guarantee-item strong {
+    color: #282c3f; /* Darker color for bold text */
+  }
+
+
+
+  /* ul li:hover {
+    color: #e91e63; /* Myntra pink on hover */
+
+    ul li {
+        /* Existing styles for your list items */
+        transition: color 0.3s ease; /* Smooth transition for the color change */
+    }
+    
+    ul li:hover {
+        color: red; /* Change text color to red on hover */
+        cursor: pointer; /* Optional: Change cursor to pointer to indicate interactivity */
+    }
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width : 500px){
+    header{
+        background: red;
+        height: 122px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right{
+        display: flex;
+        margin: 12px;
+        flex-direction: column;
+
+    }
+  }
+
